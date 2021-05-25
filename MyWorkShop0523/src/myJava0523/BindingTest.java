@@ -1,4 +1,5 @@
 package myJava0523;
+
 class Parent{
 	int x= 100;
 	void method() {
@@ -19,7 +20,7 @@ public class BindingTest {
 		Child c = new Child();
 		
 		System.out.println("p.x=" +p.x);//p.x=100
-		p.method();//Child Metho, ÂüÁ¶º¯¼ö Å¸ÀÔ¿¡ »ó°ü¾øÀÌ Ç×»ó ½ÇÁ¦ ÀÎ½ºÅÏ½ºÀÇ Å¸ÀÔÀÎ childÅ¬·¡½º¿¡ Á¤ÀÇµÈ ¸Þ¼­µå°¡ È£Ãâ
+		p.method();//Child Metho, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ childÅ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ ï¿½Þ¼ï¿½ï¿½å°¡ È£ï¿½ï¿½
 		
 		System.out.println("c.x=" +c.x);//c.x=200
 		c.method();//Child Method
