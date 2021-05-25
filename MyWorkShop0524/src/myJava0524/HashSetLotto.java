@@ -10,7 +10,7 @@ public class HashSetLotto {
 			int num = (int)(Math.random()*45)+1;
 			set.add(new Integer(num));
 		}
-		List list = new LinkedList(set);
+		List list = new LinkedList<Integer>(set);
 		Collections.sort(list);
 		System.out.println(list);
 
